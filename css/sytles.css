@@ -153,6 +153,10 @@ p {
   text-decoration: none;
 }
 
+.footer-link:hover {
+  color: #113c41;
+}
+
 .bottom-container p {
   color: #113c41;
 }
