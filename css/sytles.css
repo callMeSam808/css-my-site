@@ -1,12 +1,11 @@
 body {
-  background-color: #b8fff0;
+  background-color: #d4f8f0;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 .top {
-  background-color: #b8fff0;
   padding-top: 100px;
   position: relative;
 }
@@ -26,7 +25,7 @@ body {
 .profile-img {
   height: auto;
   margin: 50px auto 0;
-  width: 25%;
+  width: 20%;
 }
 
 .profile-txt {
@@ -38,7 +37,7 @@ body {
   border-style: dotted none none;
   border-width: 10px 0;
   color: #66BFBF;
-  margin: 10% auto;
+  margin: 5% auto;
   width: 7.5%;
 }
 
@@ -51,16 +50,16 @@ body {
 
 .web-img {
   float: left;
-  height: auto;
-  margin-right: 30px;
-  width: 25%;
+  height: 200px;
+  margin-right: 0;
+  width: auto;
 }
 
 .manage-img {
   float: right;
-  height: auto;
-  margin-left: 30px;
-  width: 25%;
+  height: 150px;
+  margin-left: 40px;
+  width: auto;
 }
 
 h1 {
@@ -74,6 +73,10 @@ h1 {
 h2 {  
   color: #66BFBF;
   font-size: 2.5rem;
+}
+
+h3 {
+  font-size: x-large;
 }
 
 h2, h3 {
@@ -101,21 +104,26 @@ p {
   top: 50px;
 }
 
+.contact-me {
+  margin-bottom: 25px;
+  padding-bottom: 50px;
+}
+
 .contact-me p {
-  margin: 25px auto;
+  margin: 50px auto;
   width: 50%;
 }
 
 .btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  background: #11999e;
+  background-image: -webkit-linear-gradient(top, #11999e, #113c41);
+  background-image: -moz-linear-gradient(top, #11999e, #113c41);
+  background-image: -ms-linear-gradient(top, #11999e, #113c41);
+  background-image: -o-linear-gradient(top, #11999e, #113c41);
+  background-image: linear-gradient(to bottom, #11999e, #113c41);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
@@ -124,11 +132,31 @@ p {
 }
 
 .btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
   text-decoration: none;
+}
+
+.bottom-container {
+  line-height: 2.5;
+  margin: 50px auto;
+}
+
+.footer-link {
+  color: #11999e;
+  font-size: large;
+  margin: auto 25px;
+  text-decoration: none;
+}
+
+.bottom-container p {
+  color: #113c41;
+}
+
+.img-ref {
+  font-size: smaller;
 }
